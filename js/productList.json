@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": "P001",
+      "name": "Sumsung",
+      "price": "200",
+      "color": "White"
+    },
+    {
+      "id": "P002",
+      "name": "IPhone",
+      "price": "1000",
+      "color": "Black"
+    },
+    {
+      "id": "P003",
+      "name": "Nokia",
+      "price": "250",
+      "color": "Red"
+    },
+    {
+      "id": "P004",
+      "name": "Huawei",
+      "price": "300",
+      "color": "Blue"
+    }
+  ]
+}

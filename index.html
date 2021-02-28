@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Product Add To Cart</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <!-- Navbar content -->
+      <div class="container">
+        <a class="navbar-brand mx-auto" href="#">Shopping Cart </a>
+      </div>
+    </nav>
+    <div class="container message-container">
+      <div class="row row-message">
+        <div class="col-md-7 text-center p-2">
+          <h2>Product List</h2>
+          <hr />
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Item</th>
+                <th scope="col">Price</th>
+                <th scope="col">Color</th>
+                <th scope="col">Add</th>
+              </tr>
+            </thead>
+            <tbody id="item"></tbody>
+          </table>
+        </div>
+        <div class="col-md-5 text-center p-2">
+          <h2>Cart Item</h2>
+          <hr />
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Item</th>
+                <th scope="col">Price</th>
+                <th scope="col">Remove</th>
+              </tr>
+            </thead>
+            <tbody id="cartItemList"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/productList.json"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
